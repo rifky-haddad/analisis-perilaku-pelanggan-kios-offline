@@ -204,23 +204,37 @@ Namun, karena ROC-AUC model hanya sekitar 0,538, hasil propensity perlu diperlak
 ---
 ## 📈 Visualisasi Utama
 
-### Segmentasi Pelanggan
+### 1. Segmentasi Pelanggan
 
-![Customer Share vs Revenue Share](./customer_share_vs_revenue_by_segment.png)
+![Customer Share vs Revenue Share by Segment](./customer_share_vs_revenue_by_segment.png)
 
-Visualisasi menunjukkan perbedaan kontribusi setiap segmen terhadap jumlah pelanggan dan revenue.
+Visualisasi menunjukkan bahwa kontribusi pelanggan terhadap revenue berbeda antar segmen.
 
-### Distribusi Kunjungan Pelanggan
+**Loyal Regulars** hanya mencakup **27,6% pelanggan**, tetapi berkontribusi sekitar **49,4% revenue**. Sebaliknya, **Low-Value Browsers** mencakup **30,8% pelanggan**, tetapi hanya menghasilkan sekitar **7,5% revenue**.
+
+Temuan ini menunjukkan bahwa ukuran segmen tidak selalu mencerminkan kontribusi bisnisnya.
+
+---
+
+### 2. Distribusi Kunjungan Pelanggan
 
 ![Customer Visit Distribution](./customer_visit_distribution.png)
 
-Distribusi menunjukkan bahwa sebagian besar pelanggan memiliki frekuensi kunjungan yang relatif rendah, dengan 203 pelanggan hanya melakukan satu kunjungan.
+Distribusi kunjungan menunjukkan bahwa **203 pelanggan hanya melakukan satu kunjungan**, sementara **297 pelanggan (59,4%)** melakukan lebih dari satu kunjungan.
 
-### Penargetan Pelanggan Bernilai Tinggi
+Pola ini menunjukkan bahwa repeat visit merupakan bagian penting dari customer base, sekaligus menunjukkan adanya peluang untuk meningkatkan engagement pada pelanggan one-time.
 
-![Actual High-Value Rate](./actual_high_value_rate_target_vs_overall.png)
+---
 
-Perbandingan actual high-value rate antara seluruh customer base dan kelompok Top 25% propensity.
+### 3. Penargetan Pelanggan Bernilai Tinggi
+
+![Actual High-Value Rate: Target vs Overall](./actual_high_value_rate_target_vs_overall.png)
+
+Kelompok **Top 25% berdasarkan propensity score** memiliki actual high-value rate sebesar **35,2%**, dibandingkan **33,0%** pada keseluruhan customer base.
+
+Peningkatan sekitar **2,2 percentage points** menunjukkan bahwa propensity scoring memberikan enrichment yang modest. Oleh karena itu, propensity score sebaiknya digunakan sebagai **sinyal prioritas relatif**, bukan sebagai satu-satunya dasar keputusan targeting.
+
+---
 
 ---
 ## 🎯 Business Recommendations
