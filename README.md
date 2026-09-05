@@ -202,7 +202,27 @@ Propensity scoring dapat digunakan untuk membuat ranking prioritas pelanggan.
 Namun, karena ROC-AUC model hanya sekitar 0,538, hasil propensity perlu diperlakukan sebagai **sinyal prioritas**, bukan sebagai prediksi yang sangat akurat.
 
 ---
+## 📈 Visualisasi Utama
 
+### Segmentasi Pelanggan
+
+![Customer Share vs Revenue Share](./customer_share_vs_revenue_by_segment.png)
+
+Visualisasi menunjukkan perbedaan kontribusi setiap segmen terhadap jumlah pelanggan dan revenue.
+
+### Performa Model Kunjungan Ulang
+
+![Repeat Visit Model Performance](./repeat_visit_model_performance.png)
+
+Perbandingan performa Logistic Regression dan LDA menunjukkan hasil yang sangat berdekatan pada prediksi kunjungan ulang.
+
+### Penargetan Pelanggan Bernilai Tinggi
+
+![Actual High-Value Rate](./actual_high_value_rate_target_vs_overall.png)
+
+Perbandingan actual high-value rate antara seluruh customer base dan kelompok Top 25% propensity.
+
+---
 ## 🎯 Business Recommendations
 
 Berdasarkan hasil analisis, beberapa strategi yang dapat dipertimbangkan:
