@@ -210,11 +210,11 @@ Namun, karena ROC-AUC model hanya sekitar 0,538, hasil propensity perlu diperlak
 
 Visualisasi menunjukkan perbedaan kontribusi setiap segmen terhadap jumlah pelanggan dan revenue.
 
-### Performa Model Kunjungan Ulang
+### Distribusi Kunjungan Pelanggan
 
-![Repeat Visit Model Performance](./repeat_visit_model_performance.png)
+![Customer Visit Distribution](./customer_visit_distribution.png)
 
-Perbandingan performa Logistic Regression dan LDA menunjukkan hasil yang sangat berdekatan pada prediksi kunjungan ulang.
+Distribusi menunjukkan bahwa sebagian besar pelanggan memiliki frekuensi kunjungan yang relatif rendah, dengan 203 pelanggan hanya melakukan satu kunjungan.
 
 ### Penargetan Pelanggan Bernilai Tinggi
 
