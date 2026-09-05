@@ -295,3 +295,9 @@ analisis-perilaku-pelanggan-kios-offline/
 ├── analisis_perilaku_pelanggan_kios_offline.ipynb
 ├── customers.csv
 └── kiosk_visits.csv
+
+## 📓 Notebook
+
+Analisis lengkap, visualisasi, proses modeling, evaluasi, dan business insight dapat dilihat pada:
+
+👉 [Buka Notebook Analisis](./analisis_perilaku_pelanggan_kios_offline.ipynb)
